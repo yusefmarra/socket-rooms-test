@@ -11,8 +11,23 @@
       <h1>Node-Express-Socket.io Boilerplate</h1>
       <br>
       <form id="socketform">
-        <input type="text" name="chatmessage" place="Enter your message here" id="m"/>
-        <button class="btn">Send</button>
+        <input type="text" name="name" place="Input your name" id="m"/>
+        <button class="btn">Set Name</button>
+      </form>
+    </div>
+    <div class="container">
+      <br>
+      <form id="privateForm">
+        <input type="text" name="name" place="Input name of Person" id="p"/>
+        <input type="text" name="room" place="Input name of Room" id="r"/>
+        <button class="btn">Create Private Chat</button>
+      </form>
+    </div>
+    <div class="container">
+      <br>
+      <form id="chatForm">
+        <input type="text" name="msg" place="Input your message" id="t"/>
+        <button class="btn">Send Message</button>
       </form>
       <ul id="message"></ul>
     </div>
